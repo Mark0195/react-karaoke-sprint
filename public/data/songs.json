@@ -3,5 +3,15 @@
         "url": "https://www.youtube.com/watch?v=Kn02KT5oonUs",
         "artist": "Pink Floyd",
         "song": "Comfortably Numb"
+    },
+    {
+        "url": "https://youtu.be/wMlBrTp3OeA",
+        "artist": "Led Zeppelin",
+        "song": "Stairway to Heaven"
+    },
+    {
+        "url": "https://youtu.be/ETHe54cuvEY",
+        "artist": "R.E.M.",
+        "song": "Losing my Religion"    
     }
 ]
