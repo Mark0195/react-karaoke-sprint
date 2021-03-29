@@ -6,6 +6,7 @@ function App() {
 
   const [artistName, setArtistName] = useState("Alice Cooper");
   const [songAddress, setSongAddress] = useState("");
+  const [songName, setSongName] = useState("Bloop");
 
   // Do this as soon as the app loads
   useEffect(()=>{
@@ -14,21 +15,27 @@ function App() {
     fetch('data/songs.json')
     .then((response) => response.json())
     .then((json) => {
-      console.log(json[0]["artist"]);
+
+      let randomNum = Math.floor(Math.random() * json.length)
+
+      console.log(json[randomNum]["artist"]);
       
-      setArtistName(json[0]["artist"]);
-      setSongAddress(json[0]["url"]);
+      setArtistName(json[randomNum]["artist"]);
+      setSongAddress(json[randomNum]["url"]);
+      setSongName(json[randomNum]["song"]);
 
     });
-  });
+  },[]);
 
   return (
     <div className="App">
       <h1>Karoaoke party!</h1>
       <p>Artist name: {artistName}</p>
+      <p>Song name: {songName}</p>
 
       <div className="PlayerArea">
-        <ReactPlayer width="100vw" url={songAddress} />
+
+        <ReactPlayer width="100vw" url={songAddress} controls="true" />
       </div>
     </div>
   );
