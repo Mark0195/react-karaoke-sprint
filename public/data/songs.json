@@ -18,5 +18,45 @@
         "url": "https://www.youtube.com/watch?v=4nuMdjV_Ufw",
         "artist": "Red Hot Chili Peppers",
         "song": "Under the Bridge"    
+    },
+    {
+        "url": "https://www.youtube.com/watch?v=ZvxHsU-OWpk",
+        "artist": "Radiohead",
+        "song": "Creep"
+    },
+    {
+        "url": "https://youtu.be/mUEtpr7OFtY",
+        "artist": "Nirvana",
+        "song": "Smells Like Teen Spirit"
+    },
+    {
+        "url": "https://youtu.be/YORLbY6nyNE",
+        "artist": "Weezer",
+        "song": "Say It Ain't So"
+    },
+    {
+        "url": "https://youtu.be/jdGQScIUVII",
+        "artist": "Coldplay",
+        "song": "Yellow"
+    },
+    {
+        "url": "https://youtu.be/vl6btPpXcDY",
+        "artist": "My Chemical Romance",
+        "song": "I Don't Love You"
+    },
+    {
+        "url": "https://youtu.be/RQ6Y3q6zCV8",
+        "artist": "Foo Fighters",
+        "song": "Learn to Fly"
+    },
+    {
+        "url": "https://youtu.be/RcuPcIqFaeI",
+        "artist": "Stone Temple Pilots",
+        "song": "Interstate Love Song"
+    },
+    {
+        "url": "https://youtu.be/VCEEKTj1kEk",
+        "artist": "Amy Winehouse",
+        "song": "Back to Black"
     }
 ]
