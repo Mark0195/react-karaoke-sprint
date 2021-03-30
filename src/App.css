@@ -19,3 +19,22 @@
   color: #61dafb;
 }
 
+.Sing-btn {
+  margin-top: 80px;
+  border: 4px solid black;
+  background-color: #fff;
+  font-size: 22px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 40px;
+  filter: drop-shadow(2px 2px 0px rgba(54, 187, 228, 0.7));
+}
+
+.Header {
+  font-family: "Josefin Sans";
+  font-size: 50px;
+  filter: drop-shadow(2px 2px 0px rgba(54, 187, 228, 0.7));
+}
+  
