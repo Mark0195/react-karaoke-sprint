@@ -4,6 +4,7 @@ import './App.css';
 
 function App() {
 
+  // Set our variables
   const [artistName, setArtistName] = useState("Alice Cooper");
   const [songAddress, setSongAddress] = useState("");
   const [songName, setSongName] = useState("Bloop");
@@ -29,7 +30,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Karoaoke party!</h1>
+      <h1>Karaoke party!</h1>
       <p>Artist name: {artistName}</p>
       <p>Song name: {songName}</p>
 
