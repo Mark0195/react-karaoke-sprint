@@ -8,6 +8,7 @@ function SongPage() {
   const [artistName, setArtistName] = useState("Alice Cooper");
   const [songAddress, setSongAddress] = useState("");
   const [songName, setSongName] = useState("Bloop");
+  const [showControls, setShowControls] = useState(true);
 
   // Do this as soon as the app loads
   useEffect(()=>{
@@ -36,7 +37,7 @@ function SongPage() {
 
       <div className="PlayerArea">
 
-        <ReactPlayer width="100vw" url={songAddress} controls="true" />
+        <ReactPlayer width="100vw" url={songAddress} controls={showControls} />
       </div>
     </div>
   );

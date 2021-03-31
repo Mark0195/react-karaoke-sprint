@@ -2,12 +2,14 @@
     {
         "url": "https://www.youtube.com/watch?v=Kn02KT5oonUs",
         "artist": "Pink Floyd",
-        "song": "Comfortably Numb"
+        "song": "Comfortably Numb",
+        "image": "pinkfloyd.jpeg"
     },
     {
         "url": "https://youtu.be/wMlBrTp3OeA",
         "artist": "Led Zeppelin",
-        "song": "Stairway to Heaven"
+        "song": "Stairway to Heaven",
+        "image": "stairway.jpeg"
     },
     {
         "url": "https://youtu.be/ETHe54cuvEY",
