@@ -9,6 +9,9 @@ function HomePage() {
         <Link to="/song">
             <button className="Sing-btn">Click</button>
         </Link>
+        <Link to="/browse">
+            <button className="browse-btn">Browse</button>
+        </Link>
     </div>
   );
 }
