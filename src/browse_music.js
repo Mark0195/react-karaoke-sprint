@@ -1,45 +1,36 @@
 import { React, useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import './App.css';
-import { Link } from 'react-router-dom'
 
 
 function BrowseMusic() {
 
-    const [browseHtml, setBrowseHtml] = useState("Hello?");
+    const [songList, setSongList] = useState(null)
 
     // Do this as soon as the app loads
-    useEffect(()=>{
-        console.log("Bleep bloop say this once");
-        
-        fetch('data/songs.json')
-        .then((response) => response.json())
-        .then((json) => {
+    useEffect(()=>{     
 
-            let html_item = "";
+       async function fetchData() {
+           // Fetch the JSON file
+           let response = await fetch('data/songs.json')
+           response = await response.json()
 
-            for (let i=0; i < json.length; i++){
-                // console.log(json[i]["artist"]);
-                // console.log(json[i]["song"]);
+            // Loop through each song and add the html into an array
+           let songHtml = []
+           for (let i = 0; i < response.length; i++) {
+               let html = <Link to="/song"><div className="BrowseItem" key={i}><h2>{response[i]["artist"]}</h2><p>{response[i]["song"]}</p> <img className="SongImage" src={"images/"+response[i]["image"]}></img></div></Link>
+               songHtml.push(html)
+           }
+           setSongList(songHtml)
+       }
 
-                html_item += `<h2>${json[i]["artist"]}</h2>`;
-                html_item += `<p>${json[i]["song"]}</p>`;
-                html_item += `<img src='./images/${json[i]["image"]}' width='120px' style='cursor:pointer'>`;
-                html_item += `<hr>`;
-            }
-
-            console.log(html_item);
-            setBrowseHtml(html_item)
-
-        });
+       fetchData()
     },[]);
 
     return (
         <div className="App">
             <h1 className="Header">Okie Dokie Karaoke</h1>
-
-            <div dangerouslySetInnerHTML={{__html: browseHtml}} />      
-
-
+            <div className="BrowseContainer">{songList}</div>
         </div>
     );
 }
