@@ -1,3 +1,9 @@
+.MainContainer {
+    height: 100vh;
+    text-align: center;
+    font-family: 'Raleway'
+}
+
 .BrowseContainer {
     display: flex;
     flex-direction: column;

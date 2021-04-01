@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 
 function HomePage() {
   return (
-    <div className="App">
+    <div className="MainContainer">
 
       <div className="Button-area">
         <h1 className="Header">Okie Dokie Karaoke</h1>
