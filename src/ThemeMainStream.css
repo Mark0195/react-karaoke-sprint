@@ -1,8 +1,15 @@
-.MainContainer {
-    height: 100vh;
-    text-align: center;
-    font-family: 'Raleway'
+.Main-container{
+  height: 100vh;
+  background-color: #fadcff;
+  text-align: center;
 }
+
+.Music-note {
+  padding-left: 25px;
+  width: 75px;
+  height: 75px;
+}
+
 
 .BrowseContainer {
     display: flex;
