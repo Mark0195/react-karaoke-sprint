@@ -11,7 +11,9 @@ function App() {
       <div className="App">
         <Switch>
           <Route path="/" exact component={HomePage} />
-          <Route path="/song" component={SongPage} />
+          <Route path="/song" exact component={SongPage} />
+          {/* Using ':id' in the next route should let us select a specific song but it's late and i need sleep */ }
+          { /* <Route path="/song/:id" component={} /> */ }
           <Route path="/browse" component={BrowseMusic} />
         </Switch>
       </div>
