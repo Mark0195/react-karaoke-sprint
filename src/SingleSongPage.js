@@ -1,6 +1,7 @@
 import { React, useEffect, useState } from 'react';
 import ReactPlayer from "react-player"
-import './App.css';
+import { Link } from 'react-router-dom';
+import './ThemeHipsterMustard.css';
 
 const SingleSongPage = ({match}) => {
 
@@ -28,15 +29,30 @@ const SingleSongPage = ({match}) => {
     },[]);
 
     return (
-        <div className="App">
-            <h1>Karaoke party!</h1>
-            <p>Artist name: {artistName}</p>
-            <p>Song name: {songName}</p>
+        <div className="MainContainer">
+        <div className="TopNav">
+            <div className="HamburgerBtn"></div>
+        </div>
+
+        <div className="LogoContainer"></div>            
+        
+        <p>Artist: {artistName}</p>
+        <p>Song: {songName}</p>
 
             <div className="PlayerArea">
                 <ReactPlayer width="100vw" url={songAddress} controls={showControls} />
             </div>
+
+            <Link to="/song">
+                <button className="Sing-btn">Random Song</button>
+            </Link>
+
+            <Link to="/browse">
+                <button className="Sing-btn">Browse Songs</button>
+            </Link>
         </div>
+
+        
     );
 }
 
