@@ -10,21 +10,9 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 100vh;
     height: 32px;
     border-bottom: 1px solid rgba(0,0,0,0.3);
-}
-
-.HamburgerBtn {
-    padding: 4px;
-    position: absolute;
-    cursor: pointer;
-    background-image: url("headphones.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 24px;
-    width: 24px;
-    cursor: pointer;
 }
 
 /* Styles for the Home Page */
@@ -50,12 +38,10 @@
 }
 
 .Image-area {
-    margin-left: 0;
-    margin-right: 0;
+    width: 100vh;
+    height: 200px;
     background-image: url("recordplayer.png");
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 240px;
     margin-bottom: 2rem;
 }
 

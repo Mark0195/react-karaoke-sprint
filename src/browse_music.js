@@ -18,7 +18,7 @@ function BrowseMusic() {
             // Loop through each song and add the html into an array
            let songHtml = []
            for (let i = 0; i < response.length; i++) {
-               let html = <Link to="/song"><div className="BrowseItem" key={i}><h2>{response[i]["artist"]}</h2><p>{response[i]["song"]}</p> <img className="SongImage" src={"images/"+response[i]["image"]}></img></div></Link>
+               let html = <Link to={"/single/"+i}><div className="BrowseItem" key={i}><h2>{response[i]["artist"]}</h2><p>{response[i]["song"]}</p> <img className="SongImage" src={"images/"+response[i]["image"]}></img></div></Link>
                songHtml.push(html)
            }
            setSongList(songHtml)

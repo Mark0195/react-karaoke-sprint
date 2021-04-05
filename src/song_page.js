@@ -12,7 +12,6 @@ function SongPage() {
 
   // Do this as soon as the app loads
   useEffect(()=>{
-    console.log("Bleep bloop say this once");
     
     fetch('data/songs.json')
     .then((response) => response.json())
