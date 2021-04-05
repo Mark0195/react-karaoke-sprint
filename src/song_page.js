@@ -13,7 +13,7 @@ function SongPage() {
   // Do this as soon as the app loads
   useEffect(()=>{
     
-    fetch('data/songs.json')
+    fetch('/data/songs.json')
     .then((response) => response.json())
     .then((json) => {
 
