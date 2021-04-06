@@ -8,7 +8,7 @@ function HomePage() {
     <div className="MainContainer">
 
       <div className="TopNav">
-        <div className="HamburgerBtn"></div>
+        <button className="HamburgerBtn"></button>
       </div>
 
       <div className="LogoContainer">
