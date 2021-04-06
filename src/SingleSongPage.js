@@ -31,7 +31,9 @@ const SingleSongPage = ({match}) => {
     return (
         <div className="MainContainer">
         <div className="TopNav">
-            <div className="HamburgerBtn"></div>
+            <Link to="/">   
+                <div className="HamburgerBtn"></div>
+            </Link>
         </div>
 
         <div className="LogoContainer"></div>            
