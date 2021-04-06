@@ -14,56 +14,67 @@
     {
         "url": "https://youtu.be/ETHe54cuvEY",
         "artist": "R.E.M.",
-        "song": "Losing my Religion"    
+        "song": "Losing my Religion",
+        "image": "Losingmyreligion.jpg"    
     },
     {
         "url": "https://www.youtube.com/watch?v=4nuMdjV_Ufw",
         "artist": "Red Hot Chili Peppers",
-        "song": "Under the Bridge"    
+        "song": "Under the Bridge",
+        "image": "Underthebridge.jpg"    
     },
     {
         "url": "https://www.youtube.com/watch?v=ZvxHsU-OWpk",
         "artist": "Radiohead",
-        "song": "Creep"
+        "song": "Creep",
+        "image": "Creep.jpg"
     },
     {
         "url": "https://youtu.be/mUEtpr7OFtY",
         "artist": "Nirvana",
-        "song": "Smells Like Teen Spirit"
+        "song": "Smells Like Teen Spirit",
+        "image": "Smellsliketeenspirit.jpg"
     },
     {
         "url": "https://youtu.be/YORLbY6nyNE",
         "artist": "Weezer",
-        "song": "Say It Ain't So"
+        "song": "Say It Ain't So",
+        "image": "Sayitaintso.png"
     },
     {
         "url": "https://youtu.be/jdGQScIUVII",
         "artist": "Coldplay",
-        "song": "Yellow"
+        "song": "Yellow",
+        "image": "Yellow.jpg"
     },
     {
         "url": "https://youtu.be/vl6btPpXcDY",
         "artist": "My Chemical Romance",
-        "song": "I Don't Love You"
+        "song": "I Don't Love You",
+        "image": "Idontloveyou.jpg"
     },
     {
         "url": "https://youtu.be/RQ6Y3q6zCV8",
         "artist": "Foo Fighters",
-        "song": "Learn to Fly"
+        "song": "Learn to Fly",
+        "image": "Learntofly.jpg"
     },
     {
         "url": "https://youtu.be/RcuPcIqFaeI",
         "artist": "Stone Temple Pilots",
-        "song": "Interstate Love Song"
+        "song": "Interstate Love Song",
+        "image": "Interstatelovesong.jpg"
     },
     {
         "url": "https://youtu.be/VCEEKTj1kEk",
         "artist": "Amy Winehouse",
-        "song": "Back to Black"
+        "song": "Back to Black",
+        "image": "Backtoblack.png"
     },
     {
         "url": "https://youtu.be/3Vld9Eea0uc",
         "artist": "The Smashing Pumpkins",
-        "song": "1979"
+        "song": "1979",
+        "image": "1979.jpg"
     }
 ]
