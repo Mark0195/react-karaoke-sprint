@@ -2,7 +2,7 @@
 .MainContainer {
   height: 100vh;
   background-color: #fadcff;
-  background-image: url("stock-vector-music-rock-and-roll-star-seamless-pattern-groovy-notebook-doodles-vector-illustration-hand-drawn-131641316\ 2.png");
+  background-image: url("colorful-music.png");
   text-align: center;
   font-family: 'Spartan', sans-serif;
 }
@@ -59,11 +59,11 @@
 .Image-area {
   margin-left: 0;
   margin-right: 0;
-  background-image: url("purple_blue_record.png");
+  background-image: url("CD (4).png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
-  height: 240px;
+  height:280px;
   margin-bottom: 2rem;
 }
 
@@ -112,6 +112,3 @@
 .SongImage {
   width: 50vw;
 }
-
-
-
