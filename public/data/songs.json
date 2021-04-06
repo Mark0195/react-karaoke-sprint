@@ -76,5 +76,84 @@
         "artist": "The Smashing Pumpkins",
         "song": "1979",
         "image": "1979.jpg"
+    },
+    {
+        "url": "https://www.youtube.com/watch?v=DvYEZF1A8SE",
+        "artist": "No Doubt",
+        "song": "Spiderwebs",
+        "image": "Spiderwebs.png" 
+    },
+    {
+        "url": "https://www.youtube.com/watch?v=gVABs_7zMdU",
+        "artist": "Beastie Boys",
+        "song": "Intergalactic",
+        "image": "Intergalactic.jpg"
+    },
+    {
+        "url": "https://www.youtube.com/watch?v=2IP7KLCEZeY",
+        "artist": "Alice Cooper",
+        "song": "School's Out",
+        "image": "Schoolsout.jpg"
+    },
+    {
+        "url": "https://www.youtube.com/watch?v=RbPFZKiyhCM",
+        "artist": "Sublime",
+        "song": "What I Got",
+        "image": "Whatigot.jpg"
+    },
+    {
+        "url": "https://www.youtube.com/watch?v=svFb94f1tok",
+        "artist": "Bob Marley",
+        "song": "I Shot The Sheriff",
+        "image": "Ishotthesheriff.jpg"
+    },
+    {
+        "url": "https://www.youtube.com/watch?v=Mfqr1HNFmDQ",
+        "artist": "Smash Mouth",
+        "song": "All Star",
+        "image": "Allstar.jpg"
+    },
+    {
+        "url": "https://www.youtube.com/watch?v=OIxbcdA0lVo",
+        "artist": "Creedance Clearwater Revival",
+        "song": "Fortunate Son",
+        "image": "Fortunateson.jpeg"
+    },
+    {
+        "url": "https://www.youtube.com/watch?v=UWjDRZLealU",
+        "artist": "Whitesnake",
+        "song": "Here I Go Again",
+        "image": "Hereigoagain.jpg"
+    },
+    {
+        "url": "https://www.youtube.com/watch?v=8WhvhR0m2fM",
+        "artist": "Green Day",
+        "song": "Basket Case",
+        "image": "Basketcase.jpg"
+    },
+    {
+        "url": "https://www.youtube.com/watch?v=pO_vwVCTXSA",
+        "artist": "I Mother Earth",
+        "song": "One More Astronaut",
+        "image": "Onemoreastronaut.jpg"
+    },
+    {
+        "url": "https://www.youtube.com/watch?v=eHO1ylhKWc4",
+        "artist": "Michael Jackson",
+        "song": "Billie Jean",
+        "image": "Billiejean.jpg"
+    },
+    {
+        "url": "https://www.youtube.com/watch?v=Px8yUNlI6m0",
+        "artist": "Beastie Boys",
+        "song": "Sabotage",
+        "image": "Sabotage.jpg"
+    },
+    {
+        "url": "https://www.youtube.com/watch?v=IPB1N_8gjUY",
+        "artist": "Alladin",
+        "song": "A Whole New World",
+        "image": "Awholenewworld.jpg"
     }
+
 ]
