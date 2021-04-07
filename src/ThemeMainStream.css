@@ -1,6 +1,6 @@
 /* Styles for all pages */
 .MainContainer {
-  height: 100vh;
+  height: 100%;
   background-color: #fadcff;
   background-image: url("Dope-image2.png");
   text-align: center;
@@ -97,18 +97,40 @@
   align-items: center;
 }
 
+.BrowseHeader {
+  font-family: 'Spartan', sans-serif;
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 1px solid black;
+  padding: 8px;
+  padding-top: 16px;
+  margin-left: 25vw;
+  margin-right: 25vw;
+  border-radius: 16px;
+}
+
 
 .BrowseItem {
   margin-top: 20px;
   margin-bottom: 20px;
   border: 1px solid black;
   width: 70vw;
+  filter: drop-shadow(0 0 0.75rem rgb(18, 1, 255));
   text-align: center;
-  background-color: #b8ecfa;
+  background-color: rgba(255, 255, 255, .75);
   border-radius: 16px;
   padding-bottom: 20px;
 }
 
+.BrowseArtistName {
+  font-size: 22px;
+  color: black;
+}
+
+.BrowseSongName {
+  font-size: 32px;
+  font-weight: 800;
+  color: black;
+}
 
 .SongImage {
   width: 50vw;
