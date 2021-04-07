@@ -37,10 +37,10 @@ const SingleSongPage = ({match}) => {
         </div>
 
         <div className="LogoContainer"></div>            
-        
-        <p>Artist: {artistName}</p>
-        <p>Song: {songName}</p>
-
+        <div className="Songinfo">
+            <p>Artist: {artistName}</p>
+            <p>Song: {songName}</p>
+        </div>
             <div className="PlayerArea">
                 <ReactPlayer width="100vw" url={songAddress} controls={showControls} />
             </div>
