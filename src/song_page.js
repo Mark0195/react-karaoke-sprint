@@ -1,7 +1,6 @@
 import { React, useEffect, useState } from 'react';
-import ReactPlayer from "react-player"
+import ReactPlayer from "react-player";
 import { Link } from 'react-router-dom';
-import './ThemeHipsterMustard.css';
 
 
 function SongPage() {
