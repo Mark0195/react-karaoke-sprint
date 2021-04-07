@@ -3,7 +3,8 @@ import SongPage from './song_page';
 import HomePage from './home_page';
 import BrowseMusic from './browse_music';
 import SingleSongPage from './SingleSongPage';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import './ThemeMainStream.css';
 
 function App() {
   return (

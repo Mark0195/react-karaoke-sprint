@@ -1,10 +1,29 @@
 /* Styles for all pages */
-.MainContainer {
+.App {
+
   height: 100%;
-  background-color: #fadcff;
+}
+
+#root {
+  height:100%;
+}
+
+body {
+  height:100%;
+}
+
+html {
   background-image: url("Dope-image2.png");
+  background-size: contain;
+}
+
+
+.MainContainer {
   text-align: center;
   font-family: 'Spartan', sans-serif;
+  background-image: url("Dope-image2.png");
+  background-size: contain;
+  height: 100%;
 }
 
 .TopNav {
@@ -64,7 +83,7 @@
   background-size: contain;
   background-position: center center;
   height:280px;
-  margin-bottom: 2rem;
+  margin-bottom: 8px;
 }
 
 .Button-area {
@@ -93,7 +112,7 @@
 .BrowseContainer {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -140,8 +159,8 @@
   background-color: rgba(255, 255, 255, 0.9);
   border: 1px solid black;
   padding: 8px;
-  margin-left: 25vw;
-  margin-right: 25vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
 }
