@@ -2,7 +2,7 @@
 .MainContainer {
   height: 100vh;
   background-color: #fadcff;
-  background-image: url("colorful-music.png");
+  background-image: url("Dope-image2.png");
   text-align: center;
   font-family: 'Spartan', sans-serif;
 }
@@ -76,6 +76,7 @@
   color: black;
   background-color: rgba(255, 255, 255, 0.9);
   margin-top: 20px;
+  margin-right: 8px;
   border: 1px solid black;
   font-size: 18px;
   padding-top: 18px;
@@ -111,4 +112,14 @@
 
 .SongImage {
   width: 50vw;
+}
+
+.Songinfo {
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 1px solid black;
+  padding: 8px;
+  margin-left: 25vw;
+  margin-right: 25vw;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
 }
