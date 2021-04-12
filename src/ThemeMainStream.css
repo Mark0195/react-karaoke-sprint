@@ -13,7 +13,7 @@ body {
 }
 
 html {
-  background-image: url("Dope-image2.png");
+  background-image: url("faded-background2.png");
   background-size: contain;
 }
 
@@ -21,7 +21,7 @@ html {
 .MainContainer {
   text-align: center;
   font-family: 'Spartan', sans-serif;
-  background-image: url("Dope-image2.png");
+  background-image: url("faded-background2.png");
   background-size: contain;
   height: 100%;
 }
@@ -54,6 +54,7 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  
 }
 
 .SubLogoName {
@@ -73,7 +74,9 @@ html {
   font-size: 52px;
   font-family: 'Spartan', sans-serif;
   font-weight: normal;
+  
 }
+  
 
 .Image-area {
   margin-left: 0;
